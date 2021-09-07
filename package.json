@@ -1,0 +1,27 @@
+{
+  "name": "sonatina-alpha",
+  "version": "1.0.0",
+  "description": "uses abc.js instead of lilypond",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thepowersss/Sonatina-Alpha.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thepowersss/Sonatina-Alpha/issues"
+  },
+  "homepage": "https://github.com/thepowersss/Sonatina-Alpha#readme",
+  "devDependencies": {
+    "abcjs": "^5.12.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^17.0.2"
+  }
+}
