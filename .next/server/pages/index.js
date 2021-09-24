@@ -1,4 +1,12 @@
 "use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
 exports.id = "pages/index";
@@ -11,63 +19,7 @@ exports.modules = {
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_abcjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-abcjs */ "react-abcjs");
-/* harmony import */ var react_abcjs__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_abcjs__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ "react/jsx-dev-runtime");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\Sherwin\\Desktop\\TheGitStuff\\Sonatina-Alpha\\pages\\index.js";
-
-
-
-
-class Index extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
-  componentDidMount() {//var reactAbcjs = require("react-abcjs")
-  }
-
-  render() {
-    return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)("div", {
-      children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)("div", {
-        children: " This is my website "
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 12,
-        columnNumber: 13
-      }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)("div", {
-        children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)((react_abcjs__WEBPACK_IMPORTED_MODULE_1___default()), {
-          abcNotation: 'X:1\nT:Example\nM:4/4\nC:Trad.\nK:G\n|:Gccc dedB|dedB dedB|c2ec B2dB|c2A2 A2BA|',
-          parserParams: {},
-          engraverParams: {
-            responsive: 'resize'
-          },
-          renderParams: {
-            viewportHorizontal: true
-          }
-        }, void 0, false, {
-          fileName: _jsxFileName,
-          lineNumber: 14,
-          columnNumber: 17
-        }, this)
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 13,
-        columnNumber: 13
-      }, this)]
-    }, void 0, true, {
-      fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 10
-    }, this);
-  }
-
-}
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Index);
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__);\nvar _jsxFileName = \"/Users/sfzhang/Desktop/TheGitPlace/Sonatina-Alpha/pages/index.js\";\n\n\n\nclass Index extends react__WEBPACK_IMPORTED_MODULE_0__.Component {\n  componentDidMount() {}\n\n  render() {\n    return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxDEV)(\"div\", {\n      children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxDEV)(\"div\", {\n        children: \" This is my website \"\n      }, void 0, false, {\n        fileName: _jsxFileName,\n        lineNumber: 9,\n        columnNumber: 13\n      }, this)\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 8,\n      columnNumber: 10\n    }, this);\n  }\n\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Index);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9pbmRleC5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7QUFBQTs7O0FBRUEsTUFBTUMsS0FBTixTQUFvQkQsNENBQXBCLENBQThCO0FBQzFCRSxFQUFBQSxpQkFBaUIsR0FBRyxDQUNuQjs7QUFFSkMsRUFBQUEsTUFBTSxHQUFHO0FBQ1Isd0JBQU87QUFBQSw2QkFDRztBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQURIO0FBQUE7QUFBQTtBQUFBO0FBQUEsWUFBUDtBQUlBOztBQVQ0Qjs7QUFZOUIsaUVBQWVGLEtBQWYiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zb25hdGluYS1hbHBoYS8uL3BhZ2VzL2luZGV4LmpzPzQ0ZDgiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtDb21wb25lbnR9IGZyb20gJ3JlYWN0J1xuXG5jbGFzcyBJbmRleCBleHRlbmRzIENvbXBvbmVudCB7XG4gICAgY29tcG9uZW50RGlkTW91bnQoKSB7XG4gICAgfVxuXG5cdHJlbmRlcigpIHtcblx0XHRyZXR1cm4gPGRpdj5cbiAgICAgICAgICAgIDxkaXY+IFRoaXMgaXMgbXkgd2Vic2l0ZSA8L2Rpdj5cblxuICAgICAgICA8L2Rpdj5cblx0fVxufVxuXG5leHBvcnQgZGVmYXVsdCBJbmRleFxuIl0sIm5hbWVzIjpbIkNvbXBvbmVudCIsIkluZGV4IiwiY29tcG9uZW50RGlkTW91bnQiLCJyZW5kZXIiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/index.js\n");
 
 /***/ }),
 
@@ -78,16 +30,6 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
 /***/ ((module) => {
 
 module.exports = require("react");
-
-/***/ }),
-
-/***/ "react-abcjs":
-/*!******************************!*\
-  !*** external "react-abcjs" ***!
-  \******************************/
-/***/ ((module) => {
-
-module.exports = require("react-abcjs");
 
 /***/ }),
 
@@ -112,4 +54,3 @@ var __webpack_exports__ = (__webpack_exec__("./pages/index.js"));
 module.exports = __webpack_exports__;
 
 })();
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicGFnZXMvaW5kZXguanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUE7QUFDQTs7O0FBRUEsTUFBTUUsS0FBTixTQUFvQkYsNENBQXBCLENBQThCO0FBQzFCRyxFQUFBQSxpQkFBaUIsR0FBRyxDQUNoQjtBQUVIOztBQUVKQyxFQUFBQSxNQUFNLEdBQUc7QUFDUix3QkFBTztBQUFBLDhCQUNHO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLGNBREgsZUFFRztBQUFBLCtCQUNJLDhEQUFDLG9EQUFEO0FBQ0kscUJBQVcsRUFDUCxpRkFGUjtBQUlJLHNCQUFZLEVBQUUsRUFKbEI7QUFLSSx3QkFBYyxFQUFFO0FBQUVDLFlBQUFBLFVBQVUsRUFBRTtBQUFkLFdBTHBCO0FBTUksc0JBQVksRUFBRTtBQUFFQyxZQUFBQSxrQkFBa0IsRUFBRTtBQUF0QjtBQU5sQjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBREo7QUFBQTtBQUFBO0FBQUE7QUFBQSxjQUZIO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxZQUFQO0FBYUE7O0FBcEI0Qjs7QUF1QjlCLGlFQUFlSixLQUFmOzs7Ozs7Ozs7O0FDMUJBOzs7Ozs7Ozs7O0FDQUE7Ozs7Ozs7Ozs7QUNBQSIsInNvdXJjZXMiOlsid2VicGFjazovL3NvbmF0aW5hLWFscGhhLy4vcGFnZXMvaW5kZXguanMiLCJ3ZWJwYWNrOi8vc29uYXRpbmEtYWxwaGEvZXh0ZXJuYWwgXCJyZWFjdFwiIiwid2VicGFjazovL3NvbmF0aW5hLWFscGhhL2V4dGVybmFsIFwicmVhY3QtYWJjanNcIiIsIndlYnBhY2s6Ly9zb25hdGluYS1hbHBoYS9leHRlcm5hbCBcInJlYWN0L2pzeC1kZXYtcnVudGltZVwiIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7Q29tcG9uZW50fSBmcm9tICdyZWFjdCdcclxuaW1wb3J0IEFiY2pzIGZyb20gJ3JlYWN0LWFiY2pzJ1xyXG5cclxuY2xhc3MgSW5kZXggZXh0ZW5kcyBDb21wb25lbnQge1xyXG4gICAgY29tcG9uZW50RGlkTW91bnQoKSB7XHJcbiAgICAgICAgLy92YXIgcmVhY3RBYmNqcyA9IHJlcXVpcmUoXCJyZWFjdC1hYmNqc1wiKVxyXG5cclxuICAgIH1cclxuXHJcblx0cmVuZGVyKCkge1xyXG5cdFx0cmV0dXJuIDxkaXY+XHJcbiAgICAgICAgICAgIDxkaXY+IFRoaXMgaXMgbXkgd2Vic2l0ZSA8L2Rpdj5cclxuICAgICAgICAgICAgPGRpdj5cclxuICAgICAgICAgICAgICAgIDxBYmNqc1xyXG4gICAgICAgICAgICAgICAgICAgIGFiY05vdGF0aW9uPXtcclxuICAgICAgICAgICAgICAgICAgICAgICAgJ1g6MVxcblQ6RXhhbXBsZVxcbk06NC80XFxuQzpUcmFkLlxcbks6R1xcbnw6R2NjYyBkZWRCfGRlZEIgZGVkQnxjMmVjIEIyZEJ8YzJBMiBBMkJBfCdcclxuICAgICAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgICAgICAgcGFyc2VyUGFyYW1zPXt7fX1cclxuICAgICAgICAgICAgICAgICAgICBlbmdyYXZlclBhcmFtcz17eyByZXNwb25zaXZlOiAncmVzaXplJyB9fVxyXG4gICAgICAgICAgICAgICAgICAgIHJlbmRlclBhcmFtcz17eyB2aWV3cG9ydEhvcml6b250YWw6IHRydWUgfX1cclxuICAgICAgICAgICAgICAgIC8+XHJcbiAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgIDwvZGl2PlxyXG5cdH1cclxufVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgSW5kZXhcclxuIiwibW9kdWxlLmV4cG9ydHMgPSByZXF1aXJlKFwicmVhY3RcIik7IiwibW9kdWxlLmV4cG9ydHMgPSByZXF1aXJlKFwicmVhY3QtYWJjanNcIik7IiwibW9kdWxlLmV4cG9ydHMgPSByZXF1aXJlKFwicmVhY3QvanN4LWRldi1ydW50aW1lXCIpOyJdLCJuYW1lcyI6WyJDb21wb25lbnQiLCJBYmNqcyIsIkluZGV4IiwiY29tcG9uZW50RGlkTW91bnQiLCJyZW5kZXIiLCJyZXNwb25zaXZlIiwidmlld3BvcnRIb3Jpem9udGFsIl0sInNvdXJjZVJvb3QiOiIifQ==
