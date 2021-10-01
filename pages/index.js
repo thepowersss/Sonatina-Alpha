@@ -1,4 +1,5 @@
 import {Component} from 'react'
+import {MusicScore} from '../components/Music'
 
 class Index extends Component {
     componentDidMount() {
@@ -7,7 +8,7 @@ class Index extends Component {
 	render() {
 		return <div>
             <div> This is my website </div>
-
+            <MusicScore/>
         </div>
 	}
 }
