@@ -1,4 +1,12 @@
 "use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
 exports.id = "pages/index";
@@ -11,73 +19,7 @@ exports.modules = {
   \****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_abc2svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-abc2svg */ "react-abc2svg");
-/* harmony import */ var react_abc2svg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_abc2svg__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ "react/jsx-dev-runtime");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\Sherwin\\Desktop\\TheGitStuff\\Sonatina-Alpha\\components\\Music\\MusicScore.js";
-
-
-
-
-class MusicScore extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
-  constructor(props) {
-    super(props);
-  }
-
-  render() {
-    return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)("div", {
-      children: [" test score 1", /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)((react_abc2svg__WEBPACK_IMPORTED_MODULE_1___default()), {
-        abcNotation: `%abc-2.2\n%%pagewidth 14cm\n%%bgcolor beige\n%%topspace 0\n%%composerspace 0\n%%leftmargin 0.8cm\n%%rightmargin 0.8cm\n%%fullsvg 1\n\nX:1\nT:Example\nM:4/4\nC:Trad.\nK:G\n|:Gccc dedB|dedB dedB|c2ec B2dB|c2A2 A2BA|`,
-        showErrors: true
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 10,
-        columnNumber: 13
-      }, this), "test score 2", /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)((react_abc2svg__WEBPACK_IMPORTED_MODULE_1___default()), {
-        abcNotation: `
-%abc-2.2
-%%pagewidth 14cm
-%%bgcolor white
-%%topspace 0
-%%composerspace 0
-%%leftmargin 0.8cm
-%%rightmargin 0.8cm
-%%fullsvg 2
-
-X:1
-T:J'ai du bon tabac
-C:Trad.
-M:2/4
-L:1/8
-Q:1/4=120
-K:C
-CDEC|D2DE|F2F2|E2E2|CDEC|D2DE|F2G2|C4:|
-G2GF|E2DE|F2G2|F2E2|G2GF|E2DE|F2G2|D4|
-CDEC|D2DE|F2F2|E2E2|CDEC|D2DE|F2G2|C4||
-                `,
-        showErrors: true
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 17,
-        columnNumber: 13
-      }, this)]
-    }, void 0, true, {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 16
-    }, this);
-  }
-
-}
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MusicScore);
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_abc2svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-abc2svg */ \"react-abc2svg\");\n/* harmony import */ var react_abc2svg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_abc2svg__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);\nvar _jsxFileName = \"/Users/sfzhang/Desktop/TheGitPlace/Sonatina-Alpha/components/Music/MusicScore.js\";\n\n\n\n\nclass MusicScore extends react__WEBPACK_IMPORTED_MODULE_0__.Component {\n  constructor(props) {\n    super(props);\n  }\n\n  render() {\n    return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)(\"div\", {\n      children: [\" test score\", /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)((react_abc2svg__WEBPACK_IMPORTED_MODULE_1___default()), {\n        abcNotation: this.props.abc,\n        showErrors: true\n      }, void 0, false, {\n        fileName: _jsxFileName,\n        lineNumber: 10,\n        columnNumber: 13\n      }, this)]\n    }, void 0, true, {\n      fileName: _jsxFileName,\n      lineNumber: 9,\n      columnNumber: 16\n    }, this);\n  }\n\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MusicScore);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL011c2ljL011c2ljU2NvcmUuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBQTtBQUNBOzs7QUFFQSxNQUFNRSxVQUFOLFNBQXlCRiw0Q0FBekIsQ0FBbUM7QUFDL0JHLEVBQUFBLFdBQVcsQ0FBQ0MsS0FBRCxFQUFRO0FBQ2YsVUFBTUEsS0FBTjtBQUNIOztBQUNEQyxFQUFBQSxNQUFNLEdBQUc7QUFDTCx3QkFBTztBQUFBLDZDQUNILDhEQUFDLHNEQUFEO0FBQ0ksbUJBQVcsRUFBRSxLQUFLRCxLQUFMLENBQVdFLEdBRDVCO0FBRUksa0JBQVU7QUFGZDtBQUFBO0FBQUE7QUFBQTtBQUFBLGNBREc7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLFlBQVA7QUFNSDs7QUFYOEI7O0FBY25DLGlFQUFlSixVQUFmIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vc29uYXRpbmEtYWxwaGEvLi9jb21wb25lbnRzL011c2ljL011c2ljU2NvcmUuanM/MDU3ZCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge0NvbXBvbmVudH0gZnJvbSAncmVhY3QnXG5pbXBvcnQgQWJjMlN2ZyBmcm9tICdyZWFjdC1hYmMyc3ZnJ1xuXG5jbGFzcyBNdXNpY1Njb3JlIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgICBjb25zdHJ1Y3Rvcihwcm9wcykge1xuICAgICAgICBzdXBlcihwcm9wcyk7XG4gICAgfVxuICAgIHJlbmRlcigpIHtcbiAgICAgICAgcmV0dXJuIDxkaXY+IHRlc3Qgc2NvcmVcbiAgICAgICAgICAgIDxBYmMyU3ZnXG4gICAgICAgICAgICAgICAgYWJjTm90YXRpb249e3RoaXMucHJvcHMuYWJjfVxuICAgICAgICAgICAgICAgIHNob3dFcnJvcnNcbiAgICAgICAgICAgIC8+XG4gICAgICAgIDwvZGl2PlxuICAgIH1cbn1cblxuZXhwb3J0IGRlZmF1bHQgTXVzaWNTY29yZVxuIl0sIm5hbWVzIjpbIkNvbXBvbmVudCIsIkFiYzJTdmciLCJNdXNpY1Njb3JlIiwiY29uc3RydWN0b3IiLCJwcm9wcyIsInJlbmRlciIsImFiYyJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./components/Music/MusicScore.js\n");
 
 /***/ }),
 
@@ -87,13 +29,17 @@ CDEC|D2DE|F2F2|E2E2|CDEC|D2DE|F2G2|C4||
   \***********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "MusicScore": () => (/* reexport safe */ _MusicScore__WEBPACK_IMPORTED_MODULE_0__.default)
-/* harmony export */ });
-/* harmony import */ var _MusicScore__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./MusicScore */ "./components/Music/MusicScore.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"MusicScore\": () => (/* reexport safe */ _MusicScore__WEBPACK_IMPORTED_MODULE_0__.default)\n/* harmony export */ });\n/* harmony import */ var _MusicScore__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./MusicScore */ \"./components/Music/MusicScore.js\");\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL011c2ljL2luZGV4LmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7O0FBQUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zb25hdGluYS1hbHBoYS8uL2NvbXBvbmVudHMvTXVzaWMvaW5kZXguanM/YTBjZSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTXVzaWNTY29yZSBmcm9tICcuL011c2ljU2NvcmUnXG5cbmV4cG9ydCB7XG5cdE11c2ljU2NvcmVcbn1cbiJdLCJuYW1lcyI6WyJNdXNpY1Njb3JlIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/Music/index.js\n");
 
+/***/ }),
 
+/***/ "./pages/globalvars.js":
+/*!*****************************!*\
+  !*** ./pages/globalvars.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ExampleMusic\": () => (/* binding */ ExampleMusic)\n/* harmony export */ });\nvar ExampleMusic = `\n%abc-2.2\n%%pagewidth 14cm\n%%bgcolor beige\n%%topspace 0\n%%composerspace 0\n%%leftmargin 0.8cm\n%%rightmargin 0.8cm\n%%fullsvg 3\n\nX:1\nT:ExampleMusic\nM:4/4\nC:Trad.\nK:G\n|:Gccc dedB|dedB dedB|\nc2ec B2dB|c2A2 A2BA|`;//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9nbG9iYWx2YXJzLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7QUFBTyxJQUFJQSxZQUFZLEdBQUk7QUFDM0I7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EscUJBaEJPIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vc29uYXRpbmEtYWxwaGEvLi9wYWdlcy9nbG9iYWx2YXJzLmpzPzg3M2QiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IHZhciBFeGFtcGxlTXVzaWMgPSBgXG4lYWJjLTIuMlxuJSVwYWdld2lkdGggMTRjbVxuJSViZ2NvbG9yIGJlaWdlXG4lJXRvcHNwYWNlIDBcbiUlY29tcG9zZXJzcGFjZSAwXG4lJWxlZnRtYXJnaW4gMC44Y21cbiUlcmlnaHRtYXJnaW4gMC44Y21cbiUlZnVsbHN2ZyAzXG5cblg6MVxuVDpFeGFtcGxlTXVzaWNcbk06NC80XG5DOlRyYWQuXG5LOkdcbnw6R2NjYyBkZWRCfGRlZEIgZGVkQnxcbmMyZWMgQjJkQnxjMkEyIEEyQkF8YFxuIl0sIm5hbWVzIjpbIkV4YW1wbGVNdXNpYyJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/globalvars.js\n");
 
 /***/ }),
 
@@ -103,46 +49,7 @@ __webpack_require__.r(__webpack_exports__);
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Music__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Music */ "./components/Music/index.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ "react/jsx-dev-runtime");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\Sherwin\\Desktop\\TheGitStuff\\Sonatina-Alpha\\pages\\index.js";
-
-
-
-
-class Index extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
-  componentDidMount() {}
-
-  render() {
-    return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)("div", {
-      children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)("div", {
-        children: " This is my website "
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 10,
-        columnNumber: 13
-      }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)(_components_Music__WEBPACK_IMPORTED_MODULE_1__.MusicScore, {}, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 11,
-        columnNumber: 13
-      }, this)]
-    }, void 0, true, {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 10
-    }, this);
-  }
-
-}
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Index);
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_Music__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Music */ \"./components/Music/index.js\");\n/* harmony import */ var _globalvars__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./globalvars */ \"./pages/globalvars.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__);\nvar _jsxFileName = \"/Users/sfzhang/Desktop/TheGitPlace/Sonatina-Alpha/pages/index.js\";\n\n\n //console.log(ExampleMusic)\n\n\n\nclass Index extends react__WEBPACK_IMPORTED_MODULE_0__.Component {\n  componentDidMount() {}\n\n  render() {\n    return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxDEV)(\"div\", {\n      children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxDEV)(\"div\", {\n        children: \"Main score website\"\n      }, void 0, false, {\n        fileName: _jsxFileName,\n        lineNumber: 14,\n        columnNumber: 13\n      }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxDEV)(_components_Music__WEBPACK_IMPORTED_MODULE_1__.MusicScore, {\n        abc: `\n%abc-2.2\n%%pagewidth 14cm\n%%bgcolor white\n%%topspace 0\n%%composerspace 0\n%%leftmargin 0.8cm\n%%rightmargin 0.8cm\n%%fullsvg 2\n\nX:1\nT:J'ai du bon tabac\nC:Trad.\nM:2/4\nL:1/8\nQ:1/4=120\nK:C\nCDEC|D2DE|F2F2|E2E2|CDEC|D2DE|F2G2|C4:|\nG2GF|E2DE|F2G2|F2E2|G2GF|E2DE|F2G2|D4|\nCDEC|D2DE|F2F2|E2E2|CDEC|D2DE|F2G2|C4||\n            `\n      }, void 0, false, {\n        fileName: _jsxFileName,\n        lineNumber: 15,\n        columnNumber: 13\n      }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxDEV)(_components_Music__WEBPACK_IMPORTED_MODULE_1__.MusicScore, {\n        abc: `\n%abc-2.2\n%%pagewidth 14cm\n%%bgcolor beige\n%%topspace 0\n%%composerspace 0\n%%leftmargin 0.8cm\n%%rightmargin 0.8cm\n%%fullsvg 1\n\nX:1\nT:Example\nM:4/4\nC:Trad.\nK:G\n|:Gccc dedB|dedB dedB|\nc2ec B2dB|c2A2 A2BA|\n            `\n      }, void 0, false, {\n        fileName: _jsxFileName,\n        lineNumber: 37,\n        columnNumber: 13\n      }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxDEV)(_components_Music__WEBPACK_IMPORTED_MODULE_1__.MusicScore, {\n        abc: _globalvars__WEBPACK_IMPORTED_MODULE_2__.ExampleMusic\n      }, void 0, false, {\n        fileName: _jsxFileName,\n        lineNumber: 56,\n        columnNumber: 13\n      }, this)]\n    }, void 0, true, {\n      fileName: _jsxFileName,\n      lineNumber: 13,\n      columnNumber: 10\n    }, this);\n  }\n\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Index);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9pbmRleC5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUFBO0FBQ0E7Q0FFQTs7OztBQUVBLE1BQU1HLEtBQU4sU0FBb0JILDRDQUFwQixDQUE4QjtBQUUxQkksRUFBQUEsaUJBQWlCLEdBQUcsQ0FFbkI7O0FBRUpDLEVBQUFBLE1BQU0sR0FBRztBQUNSLHdCQUFPO0FBQUEsOEJBQ0c7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsY0FESCxlQUVHLDhEQUFDLHlEQUFEO0FBQ0ksV0FBRyxFQUFHO0FBQ3RCO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFyQlk7QUFBQTtBQUFBO0FBQUE7QUFBQSxjQUZILGVBd0JHLDhEQUFDLHlEQUFEO0FBQ0ksV0FBRyxFQUFHO0FBQ3RCO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFsQlk7QUFBQTtBQUFBO0FBQUE7QUFBQSxjQXhCSCxlQTJDRyw4REFBQyx5REFBRDtBQUNJLFdBQUcsRUFBRUgscURBQVlBO0FBRHJCO0FBQUE7QUFBQTtBQUFBO0FBQUEsY0EzQ0g7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLFlBQVA7QUFnREE7O0FBdkQ0Qjs7QUEwRDlCLGlFQUFlQyxLQUFmIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vc29uYXRpbmEtYWxwaGEvLi9wYWdlcy9pbmRleC5qcz80NGQ4Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7Q29tcG9uZW50fSBmcm9tICdyZWFjdCdcbmltcG9ydCB7TXVzaWNTY29yZX0gZnJvbSAnLi4vY29tcG9uZW50cy9NdXNpYydcbmltcG9ydCB7RXhhbXBsZU11c2ljfSBmcm9tICcuL2dsb2JhbHZhcnMnXG4vL2NvbnNvbGUubG9nKEV4YW1wbGVNdXNpYylcblxuY2xhc3MgSW5kZXggZXh0ZW5kcyBDb21wb25lbnQge1xuXG4gICAgY29tcG9uZW50RGlkTW91bnQoKSB7XG5cbiAgICB9XG5cblx0cmVuZGVyKCkge1xuXHRcdHJldHVybiA8ZGl2PlxuICAgICAgICAgICAgPGRpdj5NYWluIHNjb3JlIHdlYnNpdGU8L2Rpdj5cbiAgICAgICAgICAgIDxNdXNpY1Njb3JlXG4gICAgICAgICAgICAgICAgYWJjPXtgXG4lYWJjLTIuMlxuJSVwYWdld2lkdGggMTRjbVxuJSViZ2NvbG9yIHdoaXRlXG4lJXRvcHNwYWNlIDBcbiUlY29tcG9zZXJzcGFjZSAwXG4lJWxlZnRtYXJnaW4gMC44Y21cbiUlcmlnaHRtYXJnaW4gMC44Y21cbiUlZnVsbHN2ZyAyXG5cblg6MVxuVDpKJ2FpIGR1IGJvbiB0YWJhY1xuQzpUcmFkLlxuTToyLzRcbkw6MS84XG5ROjEvND0xMjBcbks6Q1xuQ0RFQ3xEMkRFfEYyRjJ8RTJFMnxDREVDfEQyREV8RjJHMnxDNDp8XG5HMkdGfEUyREV8RjJHMnxGMkUyfEcyR0Z8RTJERXxGMkcyfEQ0fFxuQ0RFQ3xEMkRFfEYyRjJ8RTJFMnxDREVDfEQyREV8RjJHMnxDNHx8XG4gICAgICAgICAgICBgfS8+XG4gICAgICAgICAgICA8TXVzaWNTY29yZVxuICAgICAgICAgICAgICAgIGFiYz17YFxuJWFiYy0yLjJcbiUlcGFnZXdpZHRoIDE0Y21cbiUlYmdjb2xvciBiZWlnZVxuJSV0b3BzcGFjZSAwXG4lJWNvbXBvc2Vyc3BhY2UgMFxuJSVsZWZ0bWFyZ2luIDAuOGNtXG4lJXJpZ2h0bWFyZ2luIDAuOGNtXG4lJWZ1bGxzdmcgMVxuXG5YOjFcblQ6RXhhbXBsZVxuTTo0LzRcbkM6VHJhZC5cbks6R1xufDpHY2NjIGRlZEJ8ZGVkQiBkZWRCfFxuYzJlYyBCMmRCfGMyQTIgQTJCQXxcbiAgICAgICAgICAgIGB9Lz5cbiAgICAgICAgICAgIDxNdXNpY1Njb3JlXG4gICAgICAgICAgICAgICAgYWJjPXtFeGFtcGxlTXVzaWN9XG4gICAgICAgICAgICAvPlxuXG4gICAgICAgIDwvZGl2PlxuXHR9XG59XG5cbmV4cG9ydCBkZWZhdWx0IEluZGV4XG4iXSwibmFtZXMiOlsiQ29tcG9uZW50IiwiTXVzaWNTY29yZSIsIkV4YW1wbGVNdXNpYyIsIkluZGV4IiwiY29tcG9uZW50RGlkTW91bnQiLCJyZW5kZXIiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/index.js\n");
 
 /***/ }),
 
@@ -187,4 +94,3 @@ var __webpack_exports__ = (__webpack_exec__("./pages/index.js"));
 module.exports = __webpack_exports__;
 
 })();
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicGFnZXMvaW5kZXguanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUE7QUFDQTs7O0FBRUEsTUFBTUUsVUFBTixTQUF5QkYsNENBQXpCLENBQW1DO0FBQy9CRyxFQUFBQSxXQUFXLENBQUNDLEtBQUQsRUFBUTtBQUNmLFVBQU1BLEtBQU47QUFDSDs7QUFDREMsRUFBQUEsTUFBTSxHQUFHO0FBQ0wsd0JBQU87QUFBQSwrQ0FDSCw4REFBQyxzREFBRDtBQUNJLG1CQUFXLEVBQ04sdU5BRlQ7QUFJSSxrQkFBVTtBQUpkO0FBQUE7QUFBQTtBQUFBO0FBQUEsY0FERywrQkFRSCw4REFBQyxzREFBRDtBQUNJLG1CQUFXLEVBQUc7QUFDOUI7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxpQkFyQlk7QUFzQkksa0JBQVU7QUF0QmQ7QUFBQTtBQUFBO0FBQUE7QUFBQSxjQVJHO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxZQUFQO0FBaUNIOztBQXRDOEI7O0FBeUNuQyxpRUFBZUgsVUFBZjs7Ozs7Ozs7Ozs7Ozs7O0FDNUNBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUNBQTtBQUNBOzs7QUFFQSxNQUFNSSxLQUFOLFNBQW9CTiw0Q0FBcEIsQ0FBOEI7QUFDMUJPLEVBQUFBLGlCQUFpQixHQUFHLENBQ25COztBQUVKRixFQUFBQSxNQUFNLEdBQUc7QUFDUix3QkFBTztBQUFBLDhCQUNHO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLGNBREgsZUFFRyw4REFBQyx5REFBRDtBQUFBO0FBQUE7QUFBQTtBQUFBLGNBRkg7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLFlBQVA7QUFJQTs7QUFUNEI7O0FBWTlCLGlFQUFlQyxLQUFmOzs7Ozs7Ozs7O0FDZkE7Ozs7Ozs7Ozs7QUNBQTs7Ozs7Ozs7OztBQ0FBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vc29uYXRpbmEtYWxwaGEvLi9jb21wb25lbnRzL011c2ljL011c2ljU2NvcmUuanMiLCJ3ZWJwYWNrOi8vc29uYXRpbmEtYWxwaGEvLi9jb21wb25lbnRzL011c2ljL2luZGV4LmpzIiwid2VicGFjazovL3NvbmF0aW5hLWFscGhhLy4vcGFnZXMvaW5kZXguanMiLCJ3ZWJwYWNrOi8vc29uYXRpbmEtYWxwaGEvZXh0ZXJuYWwgXCJyZWFjdFwiIiwid2VicGFjazovL3NvbmF0aW5hLWFscGhhL2V4dGVybmFsIFwicmVhY3QtYWJjMnN2Z1wiIiwid2VicGFjazovL3NvbmF0aW5hLWFscGhhL2V4dGVybmFsIFwicmVhY3QvanN4LWRldi1ydW50aW1lXCIiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtDb21wb25lbnR9IGZyb20gJ3JlYWN0J1xyXG5pbXBvcnQgQWJjMlN2ZyBmcm9tICdyZWFjdC1hYmMyc3ZnJ1xyXG5cclxuY2xhc3MgTXVzaWNTY29yZSBleHRlbmRzIENvbXBvbmVudCB7XHJcbiAgICBjb25zdHJ1Y3Rvcihwcm9wcykge1xyXG4gICAgICAgIHN1cGVyKHByb3BzKTtcclxuICAgIH1cclxuICAgIHJlbmRlcigpIHtcclxuICAgICAgICByZXR1cm4gPGRpdj4gdGVzdCBzY29yZSAxXHJcbiAgICAgICAgICAgIDxBYmMyU3ZnXHJcbiAgICAgICAgICAgICAgICBhYmNOb3RhdGlvbj17XHJcbiAgICAgICAgICAgICAgICAgICAgYCVhYmMtMi4yXFxuJSVwYWdld2lkdGggMTRjbVxcbiUlYmdjb2xvciBiZWlnZVxcbiUldG9wc3BhY2UgMFxcbiUlY29tcG9zZXJzcGFjZSAwXFxuJSVsZWZ0bWFyZ2luIDAuOGNtXFxuJSVyaWdodG1hcmdpbiAwLjhjbVxcbiUlZnVsbHN2ZyAxXFxuXFxuWDoxXFxuVDpFeGFtcGxlXFxuTTo0LzRcXG5DOlRyYWQuXFxuSzpHXFxufDpHY2NjIGRlZEJ8ZGVkQiBkZWRCfGMyZWMgQjJkQnxjMkEyIEEyQkF8YFxyXG4gICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgICAgc2hvd0Vycm9yc1xyXG4gICAgICAgICAgICAvPlxyXG4gICAgICAgICAgICB0ZXN0IHNjb3JlIDJcclxuICAgICAgICAgICAgPEFiYzJTdmdcclxuICAgICAgICAgICAgICAgIGFiY05vdGF0aW9uPXtgXHJcbiVhYmMtMi4yXHJcbiUlcGFnZXdpZHRoIDE0Y21cclxuJSViZ2NvbG9yIHdoaXRlXHJcbiUldG9wc3BhY2UgMFxyXG4lJWNvbXBvc2Vyc3BhY2UgMFxyXG4lJWxlZnRtYXJnaW4gMC44Y21cclxuJSVyaWdodG1hcmdpbiAwLjhjbVxyXG4lJWZ1bGxzdmcgMlxyXG5cclxuWDoxXHJcblQ6SidhaSBkdSBib24gdGFiYWNcclxuQzpUcmFkLlxyXG5NOjIvNFxyXG5MOjEvOFxyXG5ROjEvND0xMjBcclxuSzpDXHJcbkNERUN8RDJERXxGMkYyfEUyRTJ8Q0RFQ3xEMkRFfEYyRzJ8QzQ6fFxyXG5HMkdGfEUyREV8RjJHMnxGMkUyfEcyR0Z8RTJERXxGMkcyfEQ0fFxyXG5DREVDfEQyREV8RjJGMnxFMkUyfENERUN8RDJERXxGMkcyfEM0fHxcclxuICAgICAgICAgICAgICAgIGB9XHJcbiAgICAgICAgICAgICAgICBzaG93RXJyb3JzXHJcbiAgICAgICAgICAgIC8+XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICB9XHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IE11c2ljU2NvcmVcclxuIiwiaW1wb3J0IE11c2ljU2NvcmUgZnJvbSAnLi9NdXNpY1Njb3JlJ1xyXG5cclxuZXhwb3J0IHtcclxuXHRNdXNpY1Njb3JlXHJcbn1cclxuIiwiaW1wb3J0IHtDb21wb25lbnR9IGZyb20gJ3JlYWN0J1xyXG5pbXBvcnQge011c2ljU2NvcmV9IGZyb20gJy4uL2NvbXBvbmVudHMvTXVzaWMnXHJcblxyXG5jbGFzcyBJbmRleCBleHRlbmRzIENvbXBvbmVudCB7XHJcbiAgICBjb21wb25lbnREaWRNb3VudCgpIHtcclxuICAgIH1cclxuXHJcblx0cmVuZGVyKCkge1xyXG5cdFx0cmV0dXJuIDxkaXY+XHJcbiAgICAgICAgICAgIDxkaXY+IFRoaXMgaXMgbXkgd2Vic2l0ZSA8L2Rpdj5cclxuICAgICAgICAgICAgPE11c2ljU2NvcmUvPlxyXG4gICAgICAgIDwvZGl2PlxyXG5cdH1cclxufVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgSW5kZXhcclxuIiwibW9kdWxlLmV4cG9ydHMgPSByZXF1aXJlKFwicmVhY3RcIik7IiwibW9kdWxlLmV4cG9ydHMgPSByZXF1aXJlKFwicmVhY3QtYWJjMnN2Z1wiKTsiLCJtb2R1bGUuZXhwb3J0cyA9IHJlcXVpcmUoXCJyZWFjdC9qc3gtZGV2LXJ1bnRpbWVcIik7Il0sIm5hbWVzIjpbIkNvbXBvbmVudCIsIkFiYzJTdmciLCJNdXNpY1Njb3JlIiwiY29uc3RydWN0b3IiLCJwcm9wcyIsInJlbmRlciIsIkluZGV4IiwiY29tcG9uZW50RGlkTW91bnQiXSwic291cmNlUm9vdCI6IiJ9
