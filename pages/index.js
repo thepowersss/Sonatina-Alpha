@@ -13,6 +13,7 @@ class Index extends Component {
 		return <div>
             <div>Main score website</div>
             <MusicScore
+                title={'score 1'}
                 abc={`
 %abc-2.2
 %%pagewidth 14cm
@@ -35,6 +36,7 @@ G2GF|E2DE|F2G2|F2E2|G2GF|E2DE|F2G2|D4|
 CDEC|D2DE|F2F2|E2E2|CDEC|D2DE|F2G2|C4||
             `}/>
             <MusicScore
+                title={'score 2'}
                 abc={`
 %abc-2.2
 %%pagewidth 14cm
@@ -54,6 +56,7 @@ K:G
 c2ec B2dB|c2A2 A2BA|
             `}/>
             <MusicScore
+                title={'score 3'}
                 abc={ExampleMusic}
             />
 
