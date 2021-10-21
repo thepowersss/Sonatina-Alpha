@@ -1,5 +1,6 @@
 import {Component} from 'react'
 import {MusicScore} from '../components/Music'
+import clientPromise from '../lib/mongodb';
 //import {ExampleMusic} from './globalvars'
 //console.log(ExampleMusic)
 
@@ -56,8 +57,36 @@ K:G
 c2ec B2dB|c2A2 A2BA|
             `}/>
 
+            <div>
+              <h1>Score_Test</h1>
+              <p>
+                <small>(According to Metacritic)</small>
+              </p>
+              <ul>
+                {this.props.score1.map((music) => (
+                  <li>
+                    <h2>{music.abcScoreString}</h2>
+                  </li>
+                ))}
+              </ul>
+            </div>
         </div>
 	}
 }
+export async function getServerSideProps() {
+    const client = await clientPromise;
+    const db = await client.db();
 
+  const score1 = await db
+    .collection("score1")
+    .find({})
+    .limit(20)
+    .toArray();
+
+  return {
+    props: {
+      score1: JSON.parse(JSON.stringify(score1)),
+    },
+  };
+}
 export default ScorePage
