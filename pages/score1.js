@@ -5,11 +5,9 @@ import clientPromise from '../lib/mongodb';
 //console.log(ExampleMusic)
 
 class ScorePage extends Component {
-
     componentDidMount() {
-
+        console.log(this.props.score1[0].abcScoreString)
     }
-
 	render() {
 		return <div>
             <div>Main score website</div>
@@ -58,17 +56,17 @@ c2ec B2dB|c2A2 A2BA|
             `}/>
 
             <div>
-              <h1>Score_Test</h1>
-              <p>
-                <small>(According to Metacritic)</small>
-              </p>
-              <ul>
-                {this.props.score1.map((music) => (
-                  <li>
-                    <h2>{music.abcScoreString}</h2>
-                  </li>
-                ))}
-              </ul>
+                <h1>Score_Test</h1>
+                <div>
+                    {this.props.score1.map((music) => (
+                        music.abcScoreString
+                    ))}
+                </div>
+
+                <MusicScore
+                    title={'score 3'}
+                    abc={this.props.score1[0].abcScoreString}
+                />
             </div>
         </div>
 	}
