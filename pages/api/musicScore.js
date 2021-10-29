@@ -10,4 +10,6 @@ export default async (req, res) => {
         .toArray();
 
     res.json(score1);
+    console.log(res.json(score1))
+    return res.json(score1);
 };

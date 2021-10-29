@@ -1,6 +1,8 @@
 import {Component} from 'react'
-import {MusicScore} from '../components/Music'
+import {MusicScore, PutMusic} from '../components/Music'
 import clientPromise from '../lib/mongodb';
+import { useRouter } from 'next/router';
+
 //import {ExampleMusic} from './globalvars'
 //console.log(ExampleMusic)
 
@@ -8,6 +10,7 @@ class ScorePage extends Component {
     componentDidMount() {
         console.log(this.props.score1[0].abcScoreString)
     }
+
 	render() {
 		return <div>
             <div>Main score website</div>
@@ -67,24 +70,26 @@ c2ec B2dB|c2A2 A2BA|
                     title={'score 3'}
                     abc={this.props.score1[0].abcScoreString}
                 />
+                <PutMusic />
             </div>
         </div>
 	}
 }
+
 export async function getServerSideProps() {
     const client = await clientPromise;
     const db = await client.db();
 
-  const score1 = await db
-    .collection("score1")
-    .find({})
-    .limit(20)
-    .toArray();
+    const score1 = await db
+        .collection("score1")
+        .find({})
+        .limit(20)
+        .toArray();
 
-  return {
-    props: {
-      score1: JSON.parse(JSON.stringify(score1)),
-    },
-  };
+    return {
+        props: {
+            score1: JSON.parse(JSON.stringify(score1)),
+        },
+    };
 }
 export default ScorePage
