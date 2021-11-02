@@ -1,5 +1,6 @@
 import {Component} from 'react'
-import {MusicScore, PutMusic} from '../components/Music'
+import {MusicScore} from '../components/Music'
+//import {PutMusic} from '../components/Music'
 import clientPromise from '../lib/mongodb';
 import { useRouter } from 'next/router';
 
@@ -70,7 +71,7 @@ c2ec B2dB|c2A2 A2BA|
                     title={'score 3'}
                     abc={this.props.score1[0].abcScoreString}
                 />
-                <PutMusic />
+                
             </div>
         </div>
 	}
